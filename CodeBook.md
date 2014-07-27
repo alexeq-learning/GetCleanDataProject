@@ -30,14 +30,15 @@ Activities consist of 6 different types:
 * **LAYING**
 
 All sensor columns contain double values in the range [-1, 1] and are labeled using the pattern:
+
     (<time>|<frequency>)<sensor>[<XYZ-axis>](<Mean>|<StdDev>)
 
-* **<time>** - time domain signals
-* **<frequency>** - frequency domain signals
-* **<sensor>** - sensor type
-* **<XYZ-axis>** - sensor axis (one of X, Y, or Z)
-* **<Mean>** - mean value
-* **<StdDev>** - standard devation 
+* `<time>` - time domain signals
+* `<frequency>` - frequency domain signals
+* `<sensor>` - sensor type
+* `<XYZ-axis>` - sensor axis (one of X, Y, or Z)
+* `<Mean>` - mean value
+* `<StdDev>` - standard devation 
 
 ## Columns
 
