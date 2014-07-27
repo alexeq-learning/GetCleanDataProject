@@ -2,8 +2,8 @@
 if (!file.exists("./data"))
     dir.create("./data")
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(url, destfile = "./data/UCI HAR Dataset.zip")
-#unzip("./data/UCI HAR Dataset.zip", exdir = "./data")
+download.file(url, destfile = "./data/UCI HAR Dataset.zip")
+unzip("./data/UCI HAR Dataset.zip", exdir = "./data")
 path = "./data/UCI HAR Dataset/"
 
 # Read raw data
